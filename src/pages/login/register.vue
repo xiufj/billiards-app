@@ -8,12 +8,13 @@
 <template>
   <view class="flex flex-col items-center justify-center h-full bg-white">
     <wd-img
+      class="mt-20"
       :width="150"
       :height="150"
       round
       src="https://unpkg.com/wot-design-uni-assets/capybara.jpg"
     />
-    <view class="flex-1 flex justify-center">
+    <view class="flex-1 flex justify-center mt-4">
       <view class="p-4 w-full">
         <wd-input
           type="number"

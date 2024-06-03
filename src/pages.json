@@ -44,6 +44,13 @@
   },
   "pages": [
     {
+      "path": "pages/login/register",
+      "type": "home",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
       "path": "pages/index/index",
       "type": "home",
       "style": {

@@ -8,7 +8,7 @@
 }
 </route>
 <template>
-  <view class="bg-white overflow-hidden px-2" :style="{ marginTop: safeAreaInsets?.top + 'px' }">
+  <view class="px-2" :style="{ marginTop: safeAreaInsets?.top + 'px' }">
     <wd-swiper
       :list="swiperList"
       autoplay

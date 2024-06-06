@@ -1,0 +1,4 @@
+/* stylelint-disable-next-line selector-class-pattern */
+.wd-segmented__item--active {
+  background-color: #ffdb00 !important;
+}

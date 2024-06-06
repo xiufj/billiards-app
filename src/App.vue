@@ -18,6 +18,10 @@ button::after {
   border: none;
 }
 
+page {
+  background-color: #f1f2f7;
+}
+
 swiper,
 scroll-view {
   flex: 1;

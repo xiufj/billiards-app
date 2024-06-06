@@ -1,18 +1,21 @@
 <template>
-  <view class="default-layout">
+  <view class="default-layout" :style="{ height: windowHeight + 'px' }">
     <slot />
     <wd-toast />
     <wd-message-box />
   </view>
 </template>
 
+<script setup lang="ts">
+const windowHeight = uni.getSystemInfoSync().windowHeight
+</script>
+
 <style lang="scss">
 .default-layout {
   height: 100vh;
-  background: #f1f2f7;
   /* #ifdef H5 */
   // padding-bottom: 50px;
-  // overflow: auto;
+  overflow: auto;
   /* #endif */
 }
 </style>

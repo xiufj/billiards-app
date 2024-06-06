@@ -1,4 +1,4 @@
-<route lang="json5" type="home">
+<route lang="json5">
 {
   style: {
     navigationBarTitleText: '注册',
@@ -69,12 +69,12 @@
 <script setup lang="ts">
 import { isMobile } from '@/utils/rules'
 
-let loginform = reactive({
+const loginform = reactive({
   phone: '',
   code: '',
   password: '',
 })
-const type = ref(1) //1快速注册 2忘记密码
+const type = ref(1) // 1快速注册 2忘记密码
 const code = ref('获取验证码')
 const loading = ref(true)
 const time = ref(60)
@@ -83,19 +83,19 @@ const isAgree = ref(false)
 
 onLoad((options) => {
   type.value = options.type
-  if (options.type == 1) {
+  if (options.type === 1) {
     uni.setNavigationBarTitle({
       title: '快速注册',
     })
   }
-  if (options.type == 2) {
+  if (options.type === 2) {
     uni.setNavigationBarTitle({
       title: '忘记密码',
     })
   }
 })
 
-//获取验证码
+// 获取验证码
 const getcode = () => {
   console.log(timer.value)
 
@@ -110,7 +110,7 @@ const getcode = () => {
   // uni.showLoading({
   // 	title:"获取中"
   // })
-  //请求获取验证码接口，如果成功，则进行倒计时
+  // 请求获取验证码接口，如果成功，则进行倒计时
   timer.value = setInterval(() => {
     if (time.value <= 1) {
       time.value = 60
@@ -139,13 +139,12 @@ const save = () => {
     })
     return
   }
-  let reg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,20}$/
+  const reg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,20}$/
   if (!reg.test(loginform.password)) {
     uni.showToast({
       title: '请输入8-20为字母+数字组合',
       icon: 'none',
     })
-    return
   }
 }
 // 用户使用协议

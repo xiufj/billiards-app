@@ -37,19 +37,24 @@
       {
         "iconPath": "static/tabbar/example.png",
         "selectedIconPath": "static/tabbar/exampleHL.png",
+        "pagePath": "pages/order/index",
+        "text": "订单"
+      },
+      {
+        "iconPath": "static/tabbar/example.png",
+        "selectedIconPath": "static/tabbar/exampleHL.png",
         "pagePath": "pages/demo/index",
         "text": "示例"
+      },
+      {
+        "iconPath": "static/tabbar/example.png",
+        "selectedIconPath": "static/tabbar/exampleHL.png",
+        "pagePath": "pages/my/index",
+        "text": "我的"
       }
     ]
   },
   "pages": [
-    {
-      "path": "pages/login/register",
-      "type": "home",
-      "style": {
-        "navigationBarTitleText": "注册"
-      }
-    },
     {
       "path": "pages/index/index",
       "type": "home",
@@ -81,10 +86,24 @@
       }
     },
     {
+      "path": "pages/login/register",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
       "path": "pages/my/index",
       "type": "page",
       "style": {
         "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/order/index",
+      "type": "hone",
+      "style": {
+        "navigationBarTitleText": "订单"
       }
     },
     {

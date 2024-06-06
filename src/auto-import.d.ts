@@ -61,7 +61,7 @@ declare global {
   const onUpdated: typeof import('vue')['onUpdated']
   const provide: typeof import('vue')['provide']
   const reactive: typeof import('vue')['reactive']
-  const readonly: typeof import('vue')['readonly']
+  const readonly: typeof import('vue')['readonly']           
   const ref: typeof import('vue')['ref']
   const resolveComponent: typeof import('vue')['resolveComponent']
   const shallowReactive: typeof import('vue')['shallowReactive']

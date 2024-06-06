@@ -5,7 +5,7 @@ import store from './store'
 import { routeInterceptor, requestInterceptor } from './interceptors'
 import 'virtual:svg-icons-register'
 import 'virtual:uno.css'
-import '@/style/index.scss'
+import '@/style'
 
 // production mock server
 // 线上报错，TODO: fix me

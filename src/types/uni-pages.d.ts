@@ -44,6 +44,11 @@ interface NavigateToOptions {
        "/pages/demo/route-interceptor/login-auto" |
        "/pages/demo/route-interceptor/login-model" |
        "/pages/demo/route-interceptor/login-page" |
+       "/pages/my/balance/index" |
+       "/pages/my/bill/index" |
+       "/pages/my/follow-fans/index" |
+       "/pages/my/my-setting/index" |
+       "/pages/my/vouchers/index" |
        "/pages/demo/page/img-min/index" |
        "/pages/demo/page/lottery/big-wheel" |
        "/pages/demo/page/lottery/nine-grid" |

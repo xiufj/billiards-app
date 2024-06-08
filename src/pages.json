@@ -375,6 +375,46 @@
       }
     },
     {
+      "path": "pages/my/balance/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "余额明细"
+      }
+    },
+    {
+      "path": "pages/my/bill/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "我的账单"
+      }
+    },
+    {
+      "path": "pages/my/follow-fans/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/my/my-setting/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/my/vouchers/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "代金券"
+      }
+    },
+    {
       "path": "pages/demo/page/img-min/index",
       "type": "page",
       "layout": "demo",

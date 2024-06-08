@@ -11,20 +11,17 @@
   <view class="p-3">
     <view v-if="ardessList.length > 0">
       <view class="flex-1 mb-3 overflow-auto flex flex-col gap-2">
-        <wd-card custom-class="!m-0" custom-footer-class="!p-2" v-for="i in 3" :key="i">
-          <template #title>
-            <view class="flex justify-between">
-              <text class="font-bold">
-                多多
-                <text class="ml-3 font-medium text-gray-600">2222222222222222</text>
-              </text>
-              <wd-icon name="delete"></wd-icon>
-            </view>
-          </template>
-          <view class="text-gray-600">
-            <tetx class="ellipsis">订单号：1111111111</tetx>
+        <view v-for="i in 3" :key="i" class="bg-white p-3 rounded-md flex flex-col gap-2">
+          <view class="flex justify-between">
+            <text class="font-bold">多多台球助教陪练</text>
+            <view class="font-bold">-200.17</view>
           </view>
-        </wd-card>
+          <view class="text-gray-500">
+            <tetx>订单号：1111111111</tetx>
+            <tetx class="ml-2">支付方式：222</tetx>
+            <view class="mt-1">2024-4-8 14</view>
+          </view>
+        </view>
       </view>
     </view>
     <view v-else>暂无地址，请添加地址</view>

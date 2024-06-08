@@ -27,20 +27,17 @@
       </view>
     </view>
     <view class="flex-1 mx-3 mb-3 overflow-auto flex flex-col gap-2">
-      <wd-card custom-class="!m-0" custom-footer-class="!p-2" v-for="i in 10" :key="i">
-        <template #title>
-          <view class="flex justify-between">
-            <text class="font-bold">多多台球助教陪练</text>
-            <view class="font-bold">-200.17</view>
-          </view>
-        </template>
-        <view>
-          <tetx>订单号：1111111111</tetx>
-          <tetx>支付方式：222</tetx>
-          <br />
-          <tetx>2024-4-8 14</tetx>
+      <view v-for="i in 10" :key="i" class="bg-white p-3 rounded-md flex flex-col gap-2">
+        <view class="flex justify-between">
+          <text class="font-bold">多多台球助教陪练</text>
+          <view class="font-bold">-200.17</view>
         </view>
-      </wd-card>
+        <view class="text-gray-500">
+          <tetx>订单号：1111111111</tetx>
+          <tetx class="ml-2">支付方式：222</tetx>
+          <view class="mt-1">2024-4-8 14</view>
+        </view>
+      </view>
     </view>
   </view>
 </template>

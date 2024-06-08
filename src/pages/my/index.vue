@@ -75,25 +75,28 @@
     <view class="bg-white mx-3 rounded mt-4 p-4">
       <text class="font-bold text-[36rpx]">更多功能</text>
       <view class="flex items-center justify-between mx-3 mt-4 flex-wrap gap-4">
-        <view class="flex flex-col justify-center text-center gap-1 w-1/5">
+        <view
+          class="flex flex-col justify-center text-center gap-1 w-1/5"
+          @click="goDetailPage('pages/my/my-ball-room/index')"
+        >
           <wd-icon name="setting" size="22px"></wd-icon>
-          <text class="text-gray-700">关注助教</text>
+          <text class="text-gray-700">我的球房</text>
         </view>
         <view class="flex flex-col justify-center text-center gap-1 w-1/5">
           <wd-icon name="setting" size="22px"></wd-icon>
-          <text class="text-gray-700">关注球房</text>
+          <text class="text-gray-700">我是助教</text>
         </view>
         <view class="flex flex-col justify-center items-center text-center gap-1 w-1/5">
           <wd-icon name="setting" size="22px"></wd-icon>
-          <text class="text-gray-700">粉丝</text>
+          <text class="text-gray-700">投诉举报</text>
         </view>
         <view class="flex flex-col justify-center items-center text-center gap-1 w-1/5">
           <wd-icon name="setting" size="22px"></wd-icon>
-          <text class="text-gray-700">粉丝</text>
+          <text class="text-gray-700">联系客服</text>
         </view>
         <view class="flex flex-col justify-center items-center text-center gap-1 w-1/5">
           <wd-icon name="setting" size="22px"></wd-icon>
-          <text class="text-gray-700">粉丝</text>
+          <text class="text-gray-700">邀请好友</text>
         </view>
       </view>
     </view>

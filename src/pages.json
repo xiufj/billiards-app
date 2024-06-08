@@ -64,6 +64,14 @@
       }
     },
     {
+      "path": "pages/address/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "地址"
+      }
+    },
+    {
       "path": "pages/demo/index",
       "type": "page",
       "style": {
@@ -104,6 +112,14 @@
       "type": "hone",
       "style": {
         "navigationBarTitleText": "订单"
+      }
+    },
+    {
+      "path": "pages/address/add-address/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "新增地址"
       }
     },
     {
@@ -396,6 +412,14 @@
       "layout": "default",
       "style": {
         "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/my/my-ball-room/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "我的球房"
       }
     },
     {

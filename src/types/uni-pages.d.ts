@@ -5,12 +5,14 @@
 
 interface NavigateToOptions {
   url: "/pages/index/index" |
+       "/pages/address/index" |
        "/pages/demo/index" |
        "/pages/index/request" |
        "/pages/login/index" |
        "/pages/login/register" |
        "/pages/my/index" |
        "/pages/order/index" |
+       "/pages/address/add-address/index" |
        "/pages/demo/base/auto-import" |
        "/pages/demo/base/css" |
        "/pages/demo/base/enum" |
@@ -47,6 +49,7 @@ interface NavigateToOptions {
        "/pages/my/balance/index" |
        "/pages/my/bill/index" |
        "/pages/my/follow-fans/index" |
+       "/pages/my/my-ball-room/index" |
        "/pages/my/my-setting/index" |
        "/pages/my/vouchers/index" |
        "/pages/demo/page/img-min/index" |

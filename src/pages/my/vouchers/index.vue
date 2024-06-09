@@ -35,6 +35,7 @@
         </view>
       </template>
     </wd-card>
+    <wd-status-tip image="content" tip="暂无内容" />
   </view>
 </template>
 

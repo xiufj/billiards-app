@@ -2,3 +2,7 @@
 .wd-segmented__item--active {
   background-color: #ffdb00 !important;
 }
+/* stylelint-disable-next-line selector-class-pattern */
+.assistant-details .wd-swiper__track {
+  border-radius: 0 !important;
+}

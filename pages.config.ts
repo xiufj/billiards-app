@@ -46,6 +46,12 @@ export default defineUniPages({
       {
         iconPath: 'static/tabbar/example.png',
         selectedIconPath: 'static/tabbar/exampleHL.png',
+        pagePath: 'pages/assistant/index',
+        text: '助教',
+      },
+      {
+        iconPath: 'static/tabbar/example.png',
+        selectedIconPath: 'static/tabbar/exampleHL.png',
         pagePath: 'pages/demo/index',
         text: '示例',
       },

@@ -59,7 +59,7 @@ const swiperList = ref([
   'https://img.yzcdn.cn/vant/cat.jpeg',
   'https://unpkg.com/wot-design-uni-assets/meng.jpg',
 ])
-const aa = reactive({})
+
 const current1 = ref('李雷')
 const list = ref([
   {

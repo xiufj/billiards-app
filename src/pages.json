@@ -43,6 +43,12 @@
       {
         "iconPath": "static/tabbar/example.png",
         "selectedIconPath": "static/tabbar/exampleHL.png",
+        "pagePath": "pages/assistant/index",
+        "text": "助教"
+      },
+      {
+        "iconPath": "static/tabbar/example.png",
+        "selectedIconPath": "static/tabbar/exampleHL.png",
         "pagePath": "pages/demo/index",
         "text": "示例"
       },
@@ -69,6 +75,14 @@
       "layout": "default",
       "style": {
         "navigationBarTitleText": "地址"
+      }
+    },
+    {
+      "path": "pages/assistant/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "助教"
       }
     },
     {
@@ -120,6 +134,14 @@
       "layout": "default",
       "style": {
         "navigationBarTitleText": "新增地址"
+      }
+    },
+    {
+      "path": "pages/assistant/assistant-details/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "助教详情"
       }
     },
     {

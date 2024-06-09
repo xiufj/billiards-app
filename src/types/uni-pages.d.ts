@@ -6,6 +6,7 @@
 interface NavigateToOptions {
   url: "/pages/index/index" |
        "/pages/address/index" |
+       "/pages/assistant/index" |
        "/pages/demo/index" |
        "/pages/index/request" |
        "/pages/login/index" |
@@ -13,6 +14,7 @@ interface NavigateToOptions {
        "/pages/my/index" |
        "/pages/order/index" |
        "/pages/address/add-address/index" |
+       "/pages/assistant/assistant-details/index" |
        "/pages/demo/base/auto-import" |
        "/pages/demo/base/css" |
        "/pages/demo/base/enum" |
@@ -62,7 +64,7 @@ interface NavigateToOptions {
 interface RedirectToOptions extends NavigateToOptions {}
 
 interface SwitchTabOptions {
-  url: "/pages/index/index" | "/pages/order/index" | "/pages/demo/index" | "/pages/my/index"
+  url: "/pages/index/index" | "/pages/order/index" | "/pages/assistant/index" | "/pages/demo/index" | "/pages/my/index"
 }
 
 type ReLaunchOptions = NavigateToOptions | SwitchTabOptions;

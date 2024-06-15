@@ -413,6 +413,14 @@
       }
     },
     {
+      "path": "pages/demo/route-interceptor/map",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "自动登录（无需拦截）"
+      }
+    },
+    {
       "path": "pages/my/balance/index",
       "type": "page",
       "layout": "default",

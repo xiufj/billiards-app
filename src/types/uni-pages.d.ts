@@ -48,6 +48,7 @@ interface NavigateToOptions {
        "/pages/demo/route-interceptor/login-auto" |
        "/pages/demo/route-interceptor/login-model" |
        "/pages/demo/route-interceptor/login-page" |
+       "/pages/demo/route-interceptor/map" |
        "/pages/my/balance/index" |
        "/pages/my/bill/index" |
        "/pages/my/follow-fans/index" |

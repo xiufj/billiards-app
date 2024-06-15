@@ -62,6 +62,10 @@ const pageDemos = pagesJson.pages
 
 const routeInterceptionList = [
   {
+    title: '地图',
+    path: 'pages/demo/route-interceptor/map',
+  },
+  {
     title: '说明页面',
     path: 'pages/demo/route-interceptor/index',
   },

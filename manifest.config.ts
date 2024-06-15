@@ -87,6 +87,19 @@ export default defineManifestConfig({
     },
     usingComponents: true,
     lazyCodeLoading: 'requiredComponents',
+    permission: {
+      'scope.userLocation': {
+        desc: '获取配送地址',
+      },
+    },
+    requiredPrivateInfos: [
+      'getLocation',
+      'chooseLocation',
+      'onLocationChange',
+      'startLocationUpdate',
+      'startLocationUpdateBackground',
+    ],
+    requiredBackgroundModes: ['location'], // 需要再后台使用
     // __usePrivacyCheck__: true,
   },
   'mp-alipay': {

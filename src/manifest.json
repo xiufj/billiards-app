@@ -57,7 +57,22 @@
       "urlCheck": false
     },
     "usingComponents": true,
-    "lazyCodeLoading": "requiredComponents"
+    "lazyCodeLoading": "requiredComponents",
+    "permission": {
+      "scope.userLocation": {
+        "desc": "获取配送地址"
+      }
+    },
+    "requiredPrivateInfos": [
+      "getLocation",
+      "chooseLocation",
+      "onLocationChange",
+      "startLocationUpdate",
+      "startLocationUpdateBackground"
+    ],
+    "requiredBackgroundModes": [
+      "location"
+    ]
   },
   "mp-alipay": {
     "usingComponents": true

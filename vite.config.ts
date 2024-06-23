@@ -11,6 +11,7 @@ import UniLayouts from '@uni-helper/vite-plugin-uni-layouts'
 import UniPlatform from '@uni-helper/vite-plugin-uni-platform'
 // @see https://github.com/uni-helper/vite-plugin-uni-manifest
 import UniManifest from '@uni-helper/vite-plugin-uni-manifest'
+
 // @see https://github.com/uni-helper/vite-plugin-uni-components
 import Components from '@uni-helper/vite-plugin-uni-components'
 // @see https://unocss.dev/
@@ -26,7 +27,6 @@ import AutoImport from 'unplugin-auto-import/vite'
 // import viteCompression from 'vite-plugin-compression'
 import ViteRestart from 'vite-plugin-restart'
 import { visualizer } from 'rollup-plugin-visualizer'
-import imagemin from './vite-plugins/imagemin'
 
 console.log('process.platform -> ', process.platform)
 
@@ -108,9 +108,6 @@ export default ({ command, mode }) => {
           gzipSize: true,
           brotliSize: true,
         }),
-      // 这个图片压缩插件比较耗时，希望仅在生产环境使用
-      // TODO: 缓存每次压缩过的图片，已经压缩过的不再压缩
-      imagemin(mode === 'production'),
     ],
 
     css: {
